@@ -237,18 +237,20 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  position: relative;
 }
 .footer__author{
-  /*margin: auto;
+  display: flex;
+  justify-content: flex-start;
   margin-top: 18px;
-  margin-bottom: 18px;*/
+  margin-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   color: white;
-  position: absolute;
+  /*position: absolute;
   left: 0;
-  bottom: 16px;
+  bottom: 16px;*/
 }
 .footer__column_content_info {
   width: 200px;
