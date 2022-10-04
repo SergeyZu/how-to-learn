@@ -1,7 +1,8 @@
 .video__iframes {
-    max-height: 316px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    overflow: visible;    
+  position: relative;
+  bottom: -50px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  list-style-type: none;
 }
